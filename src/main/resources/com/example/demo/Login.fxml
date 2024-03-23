@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0D9276;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button mnemonicParsing="false" text="Button" />
+      <VBox prefHeight="235.0" prefWidth="600.0" style="-fx-padding: 0 250 50 40;">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-padding: 10;">
+               <children>
+                  <Label style="-fx-text-fill: #FFF6E9; -fx-font-weight: bold;" text="Nom" />
+                  <TextField style="-fx-min-height: 45; -fx-background-color: #FFF6E9; -fx-background-insets: 0; -fx-background-radius: 15;" />
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-padding: 10;">
+               <children>
+                  <Label style="-fx-text-fill: #FFF6E9; -fx-font-weight: bold;" text="Prenom" />
+                  <TextField style="-fx-min-height: 45; -fx-background-color: #FFF6E9; -fx-background-insets: 0; -fx-background-radius: 15;" />
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-padding: 10;">
+               <children>
+                  <Label style="-fx-text-fill: #FFF6E9; -fx-font-weight: bold;" text="Mot de pass" />
+                  <PasswordField style="-fx-background-color: #FFF6E9; -fx-background-radius: 15; -fx-min-height: 45; -fx-background-insets: 0;" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER_RIGHT" prefHeight="37.0" prefWidth="0.0" style="-fx-padding: 0 40 0 0;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="83.0" style="-fx-background-color: #FFF6E9; -fx-background-radius: 20; -fx-text-fill: #7D9276; -fx-font-weight: bold;" text="Ok">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

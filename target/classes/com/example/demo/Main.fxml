@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="20.0" style="-fx-background-color: #40A2E3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+  <Label maxHeight="1.7976931348623157E308" style="-fx-text-fill: white; -fx-font-size: 20; -fx-font-family: &quot;inter medium&quot;;" text="LABORATOIRE EL-AMAL JIJEL" />
+  <Label maxHeight="1.7976931348623157E308" style="-fx-text-fill: white; -fx-font-size: 30;" text="WELCOME !" />
+  <GridPane alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="177.0" prefWidth="560.0">
+    <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="10.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+         <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="10.0" />
+         <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+    </columnConstraints>
+    <rowConstraints>
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="50.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="10.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="50.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+      <Button fx:id="login" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="60.0" minWidth="150.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-text-fill: #0D9276;" text="espace gerant" GridPane.columnIndex="2" />
+      <Button fx:id="login1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="60.0" minWidth="150.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-text-fill: #0D9276;" text="espace biologiste" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button fx:id="login2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="60.0" minWidth="150.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-text-fill: #0D9276;" text="espace medcin" />
+      <Button fx:id="login3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="60.0" minWidth="150.0" style="-fx-background-color: white; -fx-text-fill: #0D9276;" text="espace agent" GridPane.columnIndex="4" />
+    </children>
+  </GridPane>
+  <GridPane prefHeight="26.0" prefWidth="555.0">
+    <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="11.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+      <Label style="-fx-text-fill: white;" text="8:00" />
+      <Label style="-fx-text-fill: white;" text="20/10/2022" GridPane.columnIndex="1" />
+    </children>
+  </GridPane>
+</VBox>

@@ -13,8 +13,8 @@ public class HelloApplication extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Login.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1008, 716);
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Gestion-Personnel.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 800, 600);
         stage.setTitle("Medical Laboratory");
         stage.setResizable(false);
         stage.setScene(scene);

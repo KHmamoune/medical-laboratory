@@ -130,7 +130,7 @@
                                     <Insets left="100.0" right="50.0" />
                                  </HBox.margin>
                               </TextField>
-                              <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="92.0" style="-fx-background-color: #701A75; -fx-text-fill: #ffffff;" text="Nouveau" />
+                              <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="92.0" style="-fx-background-color: #701A75; -fx-text-fill: #ffffff;" text="+ Nouveau" />
                            </children>
                            <VBox.margin>
                               <Insets top="30.0" />

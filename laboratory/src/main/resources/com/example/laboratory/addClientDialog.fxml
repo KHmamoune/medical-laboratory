@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<DialogPane prefHeight="170.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laboratory.AddClientController">
+<headerText>Add new Client</headerText>
+    <content>
+    <VBox alignment="TOP_CENTER" fillWidth="false" prefHeight="151.0" prefWidth="348.0" spacing="10">
+         <children>
+            <TextField promptText="Nom"  fx:id="nom"/>
+            <TextField promptText="Prenom" fx:id="prenom"/>
+            <TextField promptText="UserName" fx:id="username"/>
+            <TextField promptText="Password" fx:id="password" />
+             <ChoiceBox fx:id="type" prefWidth="150" value="doctor">
+                 <items>
+                     <FXCollections fx:factory="observableArrayList" >
+                         <String fx:value="gerant"  />
+                         <String fx:value="doctor" />
+                         <String fx:value="agent d'aceil" />
+                         <String fx:value="technisien" />
+
+                     </FXCollections>
+                 </items>
+             </ChoiceBox>
+         </children>
+    </VBox>
+    </content>
+</DialogPane>

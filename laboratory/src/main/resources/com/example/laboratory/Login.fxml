@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laboratory.HelloController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+        <items>
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="350.0" style="-fx-background-color: #CECEEA;">
+               <children>
+                  <VBox prefHeight="600.0" prefWidth="350.0">
+                     <children>
+                        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="95.0" prefWidth="75.0">
+                           <children>
+                              <ImageView fitHeight="63.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Grouplogo.png" />
+                                 </image>
+                              </ImageView>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #A19F9F; -fx-font-size: 14;" text="Stein's Lab" />
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets left="15.0" top="15.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="165.0" prefWidth="80.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="210.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/Group 5main.png" />
+                                 </image>
+                              </ImageView>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 42; -fx-fill: #5F5265;" text="Stein's Lab" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="600.0" prefWidth="450.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="450.0">
+                     <children>
+                        <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: transparent;">
+                           <VBox.margin>
+                              <Insets bottom="50.0" left="15.0" right="480.0" top="15.0" />
+                           </VBox.margin>
+                           <graphic>
+                              <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/back-square_svgrepo.com.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <VBox alignment="TOP_CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="325.0" spacing="40.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.25), 4, 0.5, 0, 1);">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 40; -fx-fill: #6B676C;" text="Login" x="400.0">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Text>
+                              <VBox prefHeight="60.0" prefWidth="280.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 22; -fx-fill: #6B676C;" text="Username" />
+                                    <TextField fx:id="username" prefHeight="59.0" style="-fx-background-radius: 15; -fx-background-color: #efefef; -fx-font-size: 20;" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="74.0" prefWidth="280.0">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 22; -fx-fill: #6B676C;" text="Password" />
+                                    <PasswordField fx:id="password" prefHeight="59.0" style="-fx-background-radius: 15; -fx-background-color: #efefef;" />
+                                 </children>
+                              </VBox>
+                              <Button fx:id="login_btn" mnemonicParsing="false" prefHeight="40.0" prefWidth="135.0" style="-fx-background-color: #701A75; -fx-text-fill: #ffffff; -fx-font-size: 22; -fx-background-radius: 10;" text="Login">
+                                 <VBox.margin>
+                                    <Insets left="160.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                           <VBox.margin>
+                              <Insets right="100.0" />
+                           </VBox.margin>
+                        </VBox>
+                     </children></VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</VBox>
